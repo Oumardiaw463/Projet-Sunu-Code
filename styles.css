@@ -1,0 +1,234 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+     box-sizing: border-box;
+}
+
+
+.navbar{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.356);
+    background: rgba(255, 255, 255, 0.356);
+    position: fixed;
+    top: 0px;
+    background: rgb(4, 71, 148);
+    
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.navbar a{
+    color: rgba(255, 255, 255, 0.781);
+    align-items: center;
+    color:transparent;
+    -webkit-text-stroke: 1px white;
+    
+}
+
+.navbar .logo{
+    font-size: 50px;
+    font-family: Arial;
+    background: none;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    font-size: 20px;
+
+}
+
+.navbar .nav-links ul li{
+    margin: 0px 25px;
+    font-family: sans serif;
+}
+
+.navbar .nav-links ul a:hover{
+    background:  rgba(0, 26, 255, 0.712);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+ .navbar img{ 
+    position: absolute;
+    top:-22px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    margin: 0px 35px;
+ } 
+
+ #Accueil{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin: 120px;
+    margin-top: 85px;
+ }
+
+ .content h1{
+    font-size: 65px;
+    margin: 25px;
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+  
+ }
+ .content p{
+    color: white;
+    font-size: 25px;
+    font-family:  sans-serif;
+    margin-bottom: 25px;
+ }
+
+ .content a{
+    color: white;
+    margin-top: 20px;
+    padding: 50px;
+ }
+
+ #Accueil a{
+    color: transparent;
+   font-size: 20px;
+   -webkit-text-stroke: 1px white;
+ }
+
+ #Accueil a:hover{
+    background: rgba(0, 0, 255, 0.534);
+    transition: 1s;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ #cadres1{
+    width: 80%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+ .cadre{
+    width: 300px;
+    height: 300px;    
+}
+
+.cadre img{
+    width: 100%;
+    height: 100%;
+}
+#cadres2{
+    width: 80%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+ .cadre{
+    width: 300px;
+    height: 300px;  
+    text-align: center;  
+}
+
+#cadres3{
+    width: 80%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.cadre{
+    width: 300px;
+    height: 300px;
+}
+
+#cadres4{
+    width: 80%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.cadre{
+    width: 300px;
+    height: 300px;
+}
+#competences{
+    text-align: center;
+    font-size: 30px;
+     color:rgba(0, 0, 255, 0.534);
+}
+#contacts{
+    text-align: center;
+    font-size: 30px;
+     color:rgba(0, 0, 255, 0.534);
+}
+#contacts .contacts{
+    color: #000;
+}
+#galerie{
+    text-align: center;
+    font-size: 30px;
+     color:rgba(0, 0, 255, 0.534);
+   
+}
+#cadres-galerie{
+     display: flex;
+    column-gap: 20px;
+}
+.cadre-img img{
+    width: 250px;
+    height: 250px;
+}
+.cadre-img img:hover{
+    width: 350px;
+    height: 350px;
+    background: grey;
+    transition: 2s;
+}
+#Apropos{
+    text-align: center;
+    font-size: 30px;
+    color:rgba(0, 0, 255, 0.534);
+    
+}
+#Apropos p{
+    color: #000;
+}
+#pied-de-page{
+    width: 100vw;
+    height: 25px;
+    background: rgb(4, 71, 148);
+    position: fixed;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+}
